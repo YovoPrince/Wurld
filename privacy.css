@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.div h3{
+    font-size: 40px;
+    color: blue;
+}
+
+.div img{
+    width: 200px;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lifeIsGood{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+/* black background for PRIVACY & POLICY */
+.blackground{
+    width: 100%;
+    height: 40vh;
+    background-attachment: fixed;
+    background-color: rgb(44, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.black{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bless{
+    margin-right: 60px;
+}
+
+.bless h4{
+    font-family: 'playball', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 300px;
+    margin-bottom: 20px;
+}
+
+.application{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.navs{
+    gap: 20px;
+    margin-left: 20px;
+}
+
+.navs ul{
+    list-style: none;
+}
+
+.nav, ul{
+    gap: 20px;
+    list-style: none;
+}
+
+.active, ul{
+    gap: 20px;
+    list-style: none;
+}
+
+ul li a{
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    gap: 20px;
+}
+
+li a:hover{
+    color: darkorange;
+}
+
+/* footer */
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    background-color: whitesmoke;
+    transition: background-color .7s ease;
+}
+
+.copyRight{
+    font-size: 11px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mobile styling */
+@media(max-width:650px){
+
+    .blackground{
+        height: 25vh;
+    }
+
+    .bless{
+        margin-left: 80px;
+    }
+
+    .navs, .nav, .active, ul li a{
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .active{
+        margin-right: 40px;
+    }
+
+    .bless h4{
+        margin-left: 25px;
+    }
+
+}
